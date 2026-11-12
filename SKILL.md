@@ -36,6 +36,10 @@ Control EasyEDA Pro (嘉立创EDA专业版) programmatically through AI. This sk
 This skill supports not only live debugging in EasyEDA, but also EasyEDA extension development.
 During EasyEDA extension development, AI agents can use the extension-related documentation, API references, type information, usage examples, and bridge-based debugging capabilities provided by this skill to look up APIs, write code, and validate behavior during integration and debugging.
 
+## Personal Drawing Rules
+
+Before selecting schematic components, drawing/editing a schematic, or placing components, arranging silkscreen, routing, or pouring copper on a PCB, read and apply the relevant branches of [绘图注意事项](references/drawing-rules.md). These are the user's drawing conventions for this fork, organized as a tree by design type, category, and object. Explicit requirements in the current task take precedence over defaults in that file.
+
 ## Architecture
 
 ```
